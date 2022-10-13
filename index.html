@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Coffee Shelter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="About.html">About</a></li>
+                   <li><a href="products.html">Products</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+                   <li><a href="reviews.html">Reviews</a></li>
+                   <li><a href="reservations.html">Reservations</a></li>
+
+                 </ul>
+            </div>  
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1 >Coffee Shelter</h1>
+            <p>Coffee. The way it was meant to be.</p>
+            <a href="contact.html" class="hero-btn">Visit us to know more</a>
+        </div> 
+        
+     </section>
+    
+    
+    
+    <!-------------Coffee Blends------------------->
+    
+    
+    
+    <section class="CoffeeBlends">
+        <h1>Coffee Blends We Offer</h1>
+        <p3>Golden roasted, richer, smoother.</p3>
+        
+        <div class="row">
+            <div class="CoffeeBlends-col">
+                <h3>Jamaica Blue Mountain</h3>
+                <p4>Our coffee is handpicked in the mountains of Jamaica, roasted locally, and shipped fresh to your door! You'll taste the difference.</p4>
+            </div>
+             <div class="CoffeeBlends-col">
+                <h3>Mrs. Rose</h3>
+                <p4>An espresso so mild and lovely that it is especially popular among fine ladies.Low in caffeine and also wonderful as a filter coffee.</p4>
+            </div>
+             <div class="CoffeeBlends-col">
+                <h3>Lavazza ¡Tierra!</h3>
+                <p4>Lavazza Tierra for AFRICA is a blend of fine hand-picked organic Arabica and Robusta from East Africa. Rich and full-bodied with a good persistence.</p4>
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <!---------------- Coffee -------------------->
+    
+    <section>
+    
+    
+    </section>
+    
+<section class="Cafeterias">
+    <h1>Cafeterias</h1>
+    <p>Visit our Coffee locations!</p>
+    
+    <div class="row">
+        <div class="Cafeterias-col">
+            <img src="images/3.jpg">
+            <div class="layer">
+                <h3>ATHENS</h3>
+            </div>
+        </div>
+         <div class="Cafeterias-col">
+            <img src="images/4.jpg">
+            <div class="layer">
+                <h3>THESSALONIKI</h3>
+            </div>
+        </div>
+         <div class="Cafeterias-col">
+            <img src="images/2.jpg">
+            <div class="layer">
+                <h3>CRETE</h3>
+            </div>
+        </div>
+    </div>
+    
+        
+</section>
+    
+    <!--------javaScript for Toggle Menu---------->
+    
+    <script>
+    
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }        
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }   
+    </script>
+    
+    
+</body>
+</html>
+
+
+
+<!------------- Footer ------------->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p5>The Coffee Shelter shop provides a business hub where professionals in all industries can come to grab some coffee, hold a meeting, meet for lunch or put in a full day of work.<br> Our experienced baristas, professional support staff and convenient locations lends an energetic atmosphere to your day-to-day business needs.</p5>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p6>© Copyright 2022 Lefteris Laskos</p6>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
